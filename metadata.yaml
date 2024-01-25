@@ -1,0 +1,25 @@
+description: Ultralytics YOLOv8m model trained on F:\POLIX\KSA Cabin Inspection.v4i.yolov8\data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2024-01-25T04:45:23.851079'
+version: 8.1.5
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Cabinet
+  1: Crack-Gap
+  2: Door-Lock
+  3: Exhaust
+  4: Heater
+  5: Roof
+  6: Shower
+  7: Sink
+  8: Skid
+  9: Smoke-Detector
+  10: Sprinkler
+  11: Toilet-Seat
+  12: Window
